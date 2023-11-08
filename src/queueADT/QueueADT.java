@@ -35,7 +35,7 @@ public interface QueueADT<E> {
      * @return The first element in the queue.
      * Precondition: The queue is not empty.
      * Postcondition: The first element is removed from the queue.
-     */
+     **/
     E dequeue();
 
     /**

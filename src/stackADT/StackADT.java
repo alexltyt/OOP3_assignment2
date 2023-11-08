@@ -19,7 +19,7 @@ public interface StackADT<E> {
      * Postcondition: The stack is empty and ready to have elements added to it.
      */
     void createEmptyStack();
-
+    /**/
     /**
      * Pushes an element onto the top of the stack.
      * 
