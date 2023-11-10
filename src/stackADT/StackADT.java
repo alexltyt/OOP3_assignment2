@@ -55,15 +55,6 @@ public interface StackADT<E> {
      * Postcondition: The stack remains unchanged.
      */
     boolean isEmpty();
-
-    /**
-     * Checks if the stack is full (only applicable if the stack has a maximum capacity).
-     * 
-     * @return True if the stack is full, false otherwise (or if the stack doesn't have a maximum capacity).
-     * Precondition: None.
-     * Postcondition: The stack remains unchanged.
-     */
-    boolean isFull();
 }
 
 
